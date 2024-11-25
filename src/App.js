@@ -55,7 +55,7 @@ function App() {
       Container.classList.remove('default')
       Container.classList.remove('snow')
       Container.classList.remove('clear')
-      Container.classList.add('snow')
+      Container.classList.add('rain')
     } else if (weatherCondition === 'Clouds') {
       Container.classList.remove('rain')
       Container.classList.remove('default')
